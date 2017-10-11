@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.js"
+            integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>To Do List</title>
 </head>
 
 <body>
-    <h1>No CSS Framework</h1>
+<div class="ui container">
+    <h1>Semantic UI</h1>
     <nav>
-        <ul>
-            <li class="navigation-item">
-                <a href="/">Todo</a>
-            </li>
-            <li class="navigation-item">
-                <a href="/">Completed todo's</a>
-            </li>
-        </ul>
+        <div class="ui three item menu">
+            <a class="item active">Todo</a>
+            <a class="item">Completed todo</a>
+        </div>
     </nav>
     <h2>Todo</h2>
     <hr/>
-    <div>
-        <ul>
-            <li>To-do list item 1</li>
-            <li>To-do list item 2</li>
-            <li>Look up existing css frameworks</li>
-            <li>Style to-do list web application in found css frameworks</li>
-        </ul>
+    <div class="ui bulleted list">
+        <div class="item">To-do list item 1</div>
+        <div class="item">To-do list item 2</div>
+        <div class="item">Look up existing css frameworks</div>
+        <div class="item">Style to-do list web application in found css frameworks</div>
     </div>
-    <form>
-        <label for="newTodo">New todo:</label>
-        <input type="text" name="newTodo" id="newTodo">
-        <input type="button" value="Add new to do" id="addNewTodo">
+    <form class="ui form">
+        <div class="field">
+            <label for="newTodo">New todo:</label>
+            <input type="text" name="newTodo" id="newTodo">
+        </div>
+        <button class="ui button" type="button" id="addNewTodo">Add new to do</button>
     </form>
+</div>
 </body>
-
 </html>
