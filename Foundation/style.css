@@ -1,0 +1,13 @@
+#addNewTodo {
+    display: block;
+}
+
+.navigation-item {
+    display: inline-block;
+    margin: 5px;
+    list-style-type: none;
+}
+
+input {
+    margin-bottom: 5px;
+}
