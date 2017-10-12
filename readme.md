@@ -1,1 +1,1 @@
-To run the Project Clarity example, run ```npm install``` and ```npm start``` to run the app.
+To run the Project Clarity example, change directory using ```cd Project-Clarity/clarity-seed/```, run ```npm install``` to install all dependencies and ```npm start``` to run the app.
