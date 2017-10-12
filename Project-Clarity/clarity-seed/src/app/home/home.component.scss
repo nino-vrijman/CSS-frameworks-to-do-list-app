@@ -1,0 +1,25 @@
+// Copyright (c) 2016 VMware, Inc. All Rights Reserved.
+// This software is released under MIT license.
+// The full license information can be found in LICENSE in the root directory of this project.
+
+
+.navigation-item {
+    display: inline-block;
+    margin: 5px;
+    list-style-type: none;
+}
+
+input {
+    display: block;
+    margin: 20px 0px 10px 0px;
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+
+button {
+    display: block;
+}
+
+li {
+    margin: 10px;
+}
