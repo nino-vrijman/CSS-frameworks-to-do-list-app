@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="field">
+            <h1 class="title">Bulma</h1>
+            <nav class="level">
+                <p class="level-item has-text-centered">
+                    <a class="link is-link" href="#">Todo</a>
+                </p>
+                <p class="level-item has-text-centered">
+                    Navigation
+                </p>
+                <p class="level-item has-text-centered">
+                    <a class="link is-link" href="#">Completed todo's</a>
+                </p>
+            </nav>
+        </div>
+        <div class="content">
+            <h2 class="title">Todo</h2>
+            <hr/>
+            <div>
+                <ul>
+                    <li>To-do list item 1</li>
+                    <li>To-do list item 2</li>
+                    <li>Look up existing css frameworks</li>
+                    <li>Style to-do list web application in found css frameworks</li>
+                </ul>
+            </div>
+            <hr/>
+        </div>
+        <div class="field">
+            <label class="label" for="newTodo">New todo:</label>
+            <input class="input" type="text" name="newTodo" id="newTodo">
+            <div class="control">
+                <button class="button is-primary">Add new todo</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
