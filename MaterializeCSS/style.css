@@ -8,6 +8,6 @@
     list-style-type: none;
 }
 
-input {
-    margin-bottom: 5px;
+.input-field {
+    margin-top: 20px !important;
 }

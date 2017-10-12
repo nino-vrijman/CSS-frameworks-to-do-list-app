@@ -5,37 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    
     <title>To Do List</title>
 </head>
 
 <body>
-    <h1>No CSS Framework</h1>
-    <nav>
-        <ul>
-            <li class="navigation-item">
-                <a href="/">Todo</a>
-            </li>
-            <li class="navigation-item">
-                <a href="/">Completed todo's</a>
-            </li>
-        </ul>
-    </nav>
-    <h2>Todo</h2>
-    <hr/>
-    <div>
-        <ul>
-            <li>To-do list item 1</li>
-            <li>To-do list item 2</li>
-            <li>Look up existing css frameworks</li>
-            <li>Style to-do list web application in found css frameworks</li>
-        </ul>
+    <div class="container">
+        <h1>MaterializeCSS</h1>
+        <nav>
+            <div class="nav-wrapper">
+                <ul>
+                    <li>
+                        <a href="#">Todo</a>
+                    </li>
+                    <li>
+                        <a href="#">Completed todo's</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h2>Todo's</h2>
+        <hr/>
+        <div>
+            <ul class="collection">
+                <li class="collection-item">To-do list item 1</li>
+                <li class="collection-item">To-do list item 2</li>
+                <li class="collection-item">Look up existing css frameworks</li>
+                <li class="collection-item">Style to-do list web application in found css frameworks</li>
+            </ul>
+        </div>
+        <hr/>
+        <form class="col s12">
+            <div class="input-field col s6">
+                <input id="newTodo" type="text" class="validate">
+                <label for="newTodo">New todo</label>
+            </div>
+            <input type="button" class="btn" value="Add new to do" id="addNewTodo">
+        </form>
     </div>
-    <form>
-        <label for="newTodo">New todo:</label>
-        <input type="text" name="newTodo" id="newTodo">
-        <input type="button" value="Add new to do" id="addNewTodo">
-    </form>
 </body>
 
 </html>
