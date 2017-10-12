@@ -1,0 +1,1 @@
+To run the Project Clarity example, run ```npm install``` and ```npm start``` to run the app.
